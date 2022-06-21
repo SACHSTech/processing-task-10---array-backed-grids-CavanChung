@@ -40,12 +40,18 @@ public class Sketch extends PApplet {
         }
 
         rect(intMargin + intMargin * intColumn + intCellWidth * intColumn, intMargin + intMargin * intRow + intCellHeight * intRow, intCellWidth, intCellHeight);
-        
-
+      
       }
     }
     
   }
+
+    /**
+    * If mouse is pressed turn white squares to green squares with the surrounding tiles turning with it
+    *
+    * @param mousePressed
+    * 
+    */
 
   public void mousePressed(){
 
